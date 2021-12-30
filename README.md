@@ -1,4 +1,4 @@
 # rango
 Rango tutorial
 
-I love ☕, 🍕 and 💃.
+I love ☕, 🍕 and 💃. \:coffee:
