@@ -17,6 +17,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
+MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 
 # Quick-start development settings - unsuitable for production
@@ -29,6 +30,10 @@ SECRET_KEY = 'django-insecure-j3faxym_=atl=jjd8%7b(jna8hc_$%@_og9_r1l2g80w!dp9z+
 DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.1.109', '.hackligaakaunti.bg', '192.168.0.104', '127.0.0.1', '0.0.0.0', '192.168.10.109']
+
+# Media definitions
+MEDIA_URL = '/media/'
+MEDIAROOT = MEDIA_DIR
 
 
 # Application definition
@@ -66,6 +71,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
             ],
         },
     },
