@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['192.168.1.109', '.hackligaakaunti.bg', '192.168.0.104', '127.0
 
 # Media definitions
 MEDIA_URL = '/media/'
-MEDIAROOT = MEDIA_DIR
+MEDIA_ROOT = MEDIA_DIR
 
 
 # Application definition
@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
