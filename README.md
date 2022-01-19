@@ -1,4 +1,3 @@
 # rango
-Rango tutorial
+Rango tutorial app
 
-I love ☕, 🍕 and 💃. \:coffee:
