@@ -19,7 +19,3 @@ def about(request):
     return render(request, 'rango/about.html', context=context_dict)
     # return HttpResponse("Rango says here is the about page. <br> <a href='/rango/'>Index</a>")
 
-
-def ivailo_pavlov(request):
-    return HttpResponse("Ивайло обича големи черни пишки<br>  "
-                        "<img src='https://pasteimg.com/images/2022/01/04/ivailo.jpg' alt='Ivcho obicha patki'> ")
