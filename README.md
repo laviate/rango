@@ -1,3 +1,3 @@
 # rango
-Rango tutorial application
+This is Rango - a tutorial application.
 
