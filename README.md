@@ -1,3 +1,3 @@
 # rango
-Rango tutorial app
+Rango tutorial application
 
