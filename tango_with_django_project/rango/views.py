@@ -19,3 +19,6 @@ def about(request):
     return render(request, 'rango/about.html', context=context_dict)
     # return HttpResponse("Rango says here is the about page. <br> <a href='/rango/'>Index</a>")
 
+def ivailo_pavlov(request):
+    context_dict = {'boldmessage': 'Trading page.'}
+    return render(request, 'rango/trading.html', context=context_dict)

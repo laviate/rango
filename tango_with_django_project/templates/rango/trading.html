@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Страницата за търговия на Ивчо</title>
+</head>
+    <body>
+        <h1>Кой разбира при мен се спира</h1>
+
+        <div>
+            Топли Топли биткойни директно от фурната<br />
+            <strong>{{ boldmessage }}</strong><br />
+        </div>
+        <div>
+            <a href="/rango/about/">Цяла нощ съм ги месил</a><br />
+        </div>
+
+        <div>
+            <img src="{% static 'images/stonks.png' %}"
+                 alt="Stonks meme" /> <!-- New line -->
+        </div>
+    </body>
+</html>
